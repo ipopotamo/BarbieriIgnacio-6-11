@@ -7,7 +7,7 @@ Beneficios:
 
 CI: Se desarrollan las versiones del codigo mas facil, el control de calidad es bastante bueno, las pruebas no simbolizan un gran costo 
 
-CD:
+CD: Mayor velocidad y menor complejidad en el proceso de desarrollo, 
 
 ¿Que es un ambiente de produccion , staging , pruebas?
 
