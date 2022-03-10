@@ -5,7 +5,7 @@ Son metodos de organización CI (Integración Continua) , CD (Distribución cont
  
 Beneficios:
 
-CI:
+CI: Se desarrollan las versiones del codigo mas facil, el control de calidad es bastante bueno, las pruebas no simbolizan un gran costo 
 
 CD:
 
@@ -15,5 +15,5 @@ Un ambiente de produccion es un "area" en donde se haran todo lo necesario para 
 
 El staging es un entorno que se utilizada para realizar pruebas del codigo del programa.
 
-
+Un ambiente de pruebas es el "area" donde se prueva el codigo antes de llevarlo asi los usuarios. 
 
