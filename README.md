@@ -5,3 +5,11 @@ Son metodos de organización CI (Integración Continua) , CD (Distribución cont
  
 Beneficios:
 
+CI:
+
+CD:
+
+¿Que es un ambiente de produccion , staging , pruebas?
+
+Un ambiente de produccion es un "area" en donde se haran todo lo necesario para el desarrollo de la app/programa.
+
