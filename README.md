@@ -11,5 +11,9 @@ CD:
 
 ¿Que es un ambiente de produccion , staging , pruebas?
 
-Un ambiente de produccion es un "area" en donde se haran todo lo necesario para el desarrollo de la app/programa.
+Un ambiente de produccion es un "area" en donde se haran todo lo necesario para el desarrollo de la app/programa
+
+El staging es un entorno que se utilizada para realizar pruebas del codigo del programa.
+
+
 
