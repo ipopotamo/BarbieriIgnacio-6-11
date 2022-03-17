@@ -13,4 +13,11 @@ jobs:
   hola:
     runs-on: ubuntu-latest
     steps:
+      - run: pwd
       - run: ls
+      
+  kkkkk:
+    runs-on: ubuntu-latest
+    steps:
+     - run: cd ../
+     
