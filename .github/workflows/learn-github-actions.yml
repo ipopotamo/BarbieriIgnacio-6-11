@@ -28,4 +28,4 @@ jobs:
      - run: |    
         pwd
         cd /home
-        mkdir /alumno/notas
+        cat /alumno/notas
