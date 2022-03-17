@@ -22,3 +22,8 @@ jobs:
      - run: |    
         ls -a /
      
+  ooohheldenring:
+   runs-on: ubuntu-latest
+   steps:
+     - run: |    
+        cd home/ mkdir/alumno/informatica
