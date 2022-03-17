@@ -28,4 +28,4 @@ jobs:
      - run: |    
         pwd
         cd /home
-        pwd
+        mkdir /alumno
