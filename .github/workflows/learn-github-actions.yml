@@ -27,5 +27,5 @@ jobs:
    steps:
      - run: |    
         pwd
-        cd home/
-        mkdir alumno/informatica
+        cd /home
+        pwd
