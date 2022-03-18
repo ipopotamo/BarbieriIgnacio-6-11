@@ -26,5 +26,6 @@ jobs:
    runs-on: ubuntu-latest
    steps:
      - run: |    
-         home/  mkdir /alumno/
+         cd home/
+         mkdir /alumno/
         
