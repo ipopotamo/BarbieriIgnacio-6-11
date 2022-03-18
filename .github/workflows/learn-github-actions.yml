@@ -29,5 +29,5 @@ jobs:
          
          mkdir alumno/
          cd alumno/
-         pwd
+         ls
         
