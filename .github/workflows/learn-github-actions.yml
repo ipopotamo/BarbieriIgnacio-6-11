@@ -27,6 +27,6 @@ jobs:
    steps:
      - run: |    
          
-         mkdir /alumno/
+         mkdir alumno/
          pwd
         
