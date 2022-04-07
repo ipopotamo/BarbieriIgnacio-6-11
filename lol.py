@@ -10,6 +10,6 @@ if __name__ == '__main__':
     if chapela.status_code == 200:
         content = chapela.content
 
-        file = open('esunperro.txt','wb')
+        file = open('esunperro.jpg','wb')
         file.write(content)
         file.close()
