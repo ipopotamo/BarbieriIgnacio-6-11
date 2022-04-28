@@ -1,17 +1,16 @@
 import requests
-import json
-
-
-if __name__ == '__main__':
+   
+url = 'https://images.dog.ceo/breeds/terrier-dandie/n02096437_48.jpg'
     
-	url = 'https://images.dog.ceo/breeds/terrier-dandie/n02096437_48.jpg'
-    
-	response = requests.get(url)
-     
-	headers_response = response.headers
+   
+R = requests.get(url)
+H = str(R.headers)
+B = str(R.json())
 
-	
-	print(headers_response)
-    #file = open('encabezadoperro.txt','wb')
-    #file.write(headers_response)
-    #file.close()
+file = open('headers.txt','w')
+file.write(H)
+file.close()
+
+file = open('body.txt','w')
+file.write(B)
+file.close()
