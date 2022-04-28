@@ -21,12 +21,42 @@ jobs:
    steps:
      - run: |    
         ls -a /
-     
+        
   ooohheldenring:
    runs-on: ubuntu-latest
    steps:
      - run: | 
           mkdir home/
           mkdir home/alumno   
+  therock:
+   runs-on: ubuntu-latest
+   steps:
+  
+       
+      - run: cd alumno
+      - run: mkdir Optica 
+      - run: cd Optica 
+      - run: mkdir alumOP
+      - run: cd alumOP
+      - run: touch NotasOpt.txt
+      - run: cd ../
+      - run: mkdir ProfesoresOpt
+      - run: cd ../
+      - run: mkdir AulaOpt
+      - run: cd ../ ../
      
-        
+      - run: mkdir informatica
+      - run: mkdir AlumnosInf 
+      - run: touch NotasOpt.txt
+      - run: cd ../ 
+      - run: mkdir ProfesoresInf 
+      - run: cd ../
+      - run: mkdir AulaInf
+      - run: cd ../ ../
+      - run: mkdir alumnosTur
+      - run: touch NotasTur.txt
+      - run: cd ../ 
+      - run: mkdir ProfesoresTur 
+      - run: cd ../  
+      - run: mkdir aulaTur 
+      
