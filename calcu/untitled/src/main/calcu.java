@@ -25,7 +25,7 @@ public class calcu {
     }
     public static int div(int num, int num2){
         if(num2 != 0){
-
+            return num/num2;
         }
         return num2;
     }
