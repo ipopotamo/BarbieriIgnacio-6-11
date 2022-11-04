@@ -3,17 +3,18 @@ package main;
 public class calcu {
 
 
-    public static float[] juan(float a, float b, float c) {
-        float b2 = b * b;
-        float cuentaR = b2 - (4 * a * c);
-        float raiz = (float) Math.sqrt(cuentaR);
+    public double[] juan(double a, double b, double c) {
+        if (a != 0) {
+            double bb = b * b;
+            double raiz = (double) Math.sqrt((bb) - (4 * a * (c)));
+            double cuaR = ((-b) - (raiz)) / (2 * a);
+            double cuaS = ((-b) + (raiz)) / (2 * a);
 
-        float vp = ((-b) + raiz) /a * 2;
-        float vm = ((-b) - raiz) /a * 2;
-        float[] result= {vp, vm};
-        return result;
-
+            return new double[]{  cuaS,cuaR};
+        }
+        return new double[]{0};
     }
+
 
 
     public static int sumar(int num, int num1){
@@ -23,7 +24,10 @@ public class calcu {
         return num - num2;
     }
     public static int div(int num, int num2){
-        return num / num2;
+        if(num2 != 0){
+
+        }
+        return num2;
     }
     public static int por(int num, int num2){
         return  num * num2;

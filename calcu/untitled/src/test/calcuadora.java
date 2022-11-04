@@ -2,8 +2,9 @@ package test;
 
 import org.junit.Test;
 import main.calcu;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotEquals;
+
+
+import static org.junit.Assert.*;
 
 public class calcuadora {
 
@@ -32,7 +33,8 @@ public class calcuadora {
 
     @Test
     public void cuaTest() {
-        assertEquals(String.valueOf(new float[][]{cals.juan(1, 2, 1)}), 1, 1);
+        double result[] = {1 , -5};
+        assertArrayEquals(cals.juan(1, 4, (-5)),result,0);
     }
 
 //sale mal
@@ -44,22 +46,28 @@ public class calcuadora {
 
     @Test
     public void restarTestM() {
-        assertEquals(cals.resstar(1, 6), 0);
+        assertNotEquals(cals.resstar(1, 6), 0);
     }
 
     @Test
     public void divTestM() {
-        assertEquals(cals.div(444, 3), 1);
+        assertNotEquals(cals.div(444, 3), 1);
     }
 
     @Test
     public void porTestM() {
-        assertEquals(cals.por(1, 3), 6);
+        assertNotEquals(cals.por(1, 3), 6);
     }
 
     @Test
     public void cuaTestM() {
-        assertEquals(String.valueOf(new float[][]{cals.juan(1, 2, 1)}), 55, 4);
+        double var  = 991;
+        double var2 = 9;
+
+        double result[] = {var , var2};
+        assertArrayEquals(cals.juan(1, 4, (-5)),result,0));
 
     }
+
+
 }
