@@ -65,7 +65,8 @@ public class calcuadora {
         double var2 = 9;
 
         double result[] = {var , var2};
-        assertArrayEquals(cals.juan(1, 4, (-5)),result,0));
+
+        assertArrayEquals(cals.juan(1, 4, (-5)),result,990);
 
     }
 
