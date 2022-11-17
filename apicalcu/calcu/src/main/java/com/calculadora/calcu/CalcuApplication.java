@@ -8,6 +8,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class CalcuApplication {
 
+
+	//ESTO ES UN TESTO DE COMO FUNCIONA UN LOGGER LAS CUENTAS ESTAN EN LA CLASE CUENTAS ABAJO DE CalcuApplication :)
 	private static Logger logger = LoggerFactory.getLogger(CalcuApplication.class);
 
 	public static void main(String[] args) {
