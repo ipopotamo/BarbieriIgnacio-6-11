@@ -59,7 +59,7 @@ public class testCuentas {
         assertNotEquals(cuentas.resta(22,20),1);
     }
 
-//MULTIPLICATION
+//MULTIPLICACION 
 
     @Test
     public void multiB(){
