@@ -46,9 +46,19 @@ public class testCuentas {
     public void restaB(){
 
         assertEquals(cuentas.resta(10,5),5);
+
+
+    }
+
+    @Test
+    public void restaBNeg(){
+
+
         assertEquals(cuentas.resta(1,2),-1);
 
     }
+
+
     @Test
     public void resta0(){
         assertEquals(cuentas.resta(4,4),0);
